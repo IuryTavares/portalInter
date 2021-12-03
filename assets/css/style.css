@@ -423,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(6, 101, 183, 0.9);
+  
   position: absolute;
   bottom: 0;
   top: 0;
@@ -512,7 +512,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f1f8ff;
+  background-color: var(--bs-body-bg);
 }
 
 .section-title {
@@ -895,6 +895,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  background-color: #f1f8ff;
+}
 .services .icon-box {
   margin-bottom: 20px;
   padding: 50px 40px;
@@ -1113,6 +1116,9 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team {
+  background-color: #f1f8ff;
+}
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1302,7 +1308,7 @@ section {
 }
 .faq .faq-list li {
   padding: 20px;
-  background: #fff;
+  background: #f1f8ff;
   border-radius: 4px;
   position: relative;
 }
@@ -1359,12 +1365,13 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background: url("../img/contact-bg.png") left center no-repeat;
+  
   position: relative;
+  background-color: #f1f8ff;
 }
 .contact:before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1408,7 +1415,7 @@ section {
 }
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #f1f8ff;
 }
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
