@@ -1,13 +1,4 @@
-/**
-* Template Name: Anyar - v4.6.0
-* Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -16,6 +7,10 @@ body {
 a {
   text-decoration: none;
   color: #0880e8;
+}
+
+p {
+  text-align: justify;
 }
 
 a:hover {
@@ -414,7 +409,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.png") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
